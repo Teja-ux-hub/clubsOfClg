@@ -1,9 +1,8 @@
 import { useRef } from "react";
-import {
-  useGsapFeaturedLeftShutter,
-  useGsapFeaturedRightShutter,
-} from "../hooks/gsap";
+import { useGsapFeaturedLeftShutter, useGsapFeaturedRightShutter } from "../hooks/gsap";
 import SectionTitle from "./SectionTitle";
+import holicks from './holicks.mp4'
+import image from './image.png'
 
 const Featured = ({ minHeight = false }) => {
   const featuredRef = useRef(null);
@@ -19,21 +18,27 @@ const Featured = ({ minHeight = false }) => {
       ref={featuredRef}
       style={minHeight ? { minHeight: "100vh" } : null}
     >
-      <SectionTitle title="Featured" />
+      <SectionTitle title="Featuring codeOholics..." />
       <div className="featured-wrapper">
         <div className="featured-left">
-          <span>90's Telephone</span>
+          <span>CMRTC</span>
           <img
-            src="https://images.pexels.com/photos/2587464/pexels-photo-2587464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Photo of Woman in Denim Jacket Holding Red Telephone"
+          src={image}            alt="POGO LOGO"
           />
           <span className="left-shutter" ref={featuredLeftShutter}></span>
         </div>
         <div className="featured-right">
-          <span>90's Cassette Player</span>
-          <img
-            src="https://images.pexels.com/photos/6076410/pexels-photo-6076410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Women Sitting Together on the Floor"
+          <span>Code Holicks....</span>
+          <video
+            src={holicks} // Replace with your video URL
+            autoPlay
+            loop
+            muted
+            style={{
+              width: "100%", // Ensures the video fits horizontally
+              height: "100vh", // Maintains aspect ratio
+              objectFit: "cover", // Ensures the video covers the area without distortion
+            }}
           />
           <span className="right-shutter" ref={featuredRightShutter}></span>
         </div>

@@ -8,16 +8,18 @@ const About = ({ minHeight }) => {
     >
       <SectionTitle title="About" />
       <p>
-        Explore the lost treasures and shining stars of the 1990s! Find your
-        favorite cartoons, TV shows, music albums, & more with easy filtering
-        functionality. With Immemorial, stay up-to-date with all your 90s
-        favorites while turning back time.
-      </p>
-      <p>
-        What's the only era that never seems to end? The 90s! Journey through
-        appreciating items from 90s TV, music, and art. See if you remember old
-        toys, cartoons, or prints of such. Indulge in some nostalgia before our
-        world falls back into the dark ages.
+        CodeOholics: A Hub for Innovators At CodeOholics, we believe in the
+        power of collaboration and continuous learning. Led by the inspiring
+        Farhan Ahmed , our club brings together students passionate about coding
+        and technology.
+        <br />
+        <br />
+        We organize exciting events such as coding challenges,
+        hackathons, and workshops designed to foster creativity, teamwork, and
+        technical growth. Whether you're a beginner or an experienced coder,
+        CodeOholics provides a platform to learn, innovate, and grow together.
+        Join us as we push the boundaries of technology and build a vibrant
+        coding community!
       </p>
     </section>
   );

@@ -31,7 +31,7 @@ const images = [
 const Gallery = () => {
   return (
     <section className="gallery">
-      <SectionTitle title="Gallery" needMargin={true} />
+      <SectionTitle title="Members representing CodeOholics" needMargin={true} />
       <div className="gallery-wrapper">
         {images.map((image) => (
           <GalleryItem key={image.id} {...image} />

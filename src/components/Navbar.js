@@ -20,13 +20,13 @@ const Navbar = () => {
     <div className="navbar wrapper">
       <ul className="links">
         <li ref={li1}>
-          <Link to="featured">Featured</Link>
+          <Link to="featured"></Link>
         </li>
         <li ref={li2}>
-          <Link to="about">About</Link>
+          <Link to="about"></Link>
         </li>
         <li ref={li3}>
-          <Link to="gallery">Gallery</Link>
+          <Link to="gallery"></Link>
         </li>
       </ul>
       <div className="logo" ref={logo}>

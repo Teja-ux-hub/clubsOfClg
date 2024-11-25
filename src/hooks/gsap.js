@@ -104,10 +104,12 @@ export const useGsapFeaturedLeftShutter = (item, trig) => {
         height: 0,
         duration: 1.2,
         ease: Expo.easeInOut,
+        once:true,
         scrollTrigger: {
           trigger: trig.current,
           start: "top center",
           end: "bottom center",
+          // once:true,
           toggleActions: "play reverse play reverse",
         },
       }
@@ -128,6 +130,7 @@ export const useGsapFeaturedRightShutter = (item, trig) => {
         width: 0,
         duration: 1.2,
         delay: 0.2,
+        once:true,
         ease: Expo.easeInOut,
         scrollTrigger: {
           trigger: trig.current,
