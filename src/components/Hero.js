@@ -114,12 +114,18 @@ const Hero = () => {
   }, [photosArr]);
 
   return (
-    <section className="hero wrapper" ref={heroRef}>
+    <section className="hero wrapper"
+    style={{
+      fontSize:"150px"
+    }}
+    ref={heroRef}>
       <h1 className="ethereal">
-        Ethereal <span ref={shutter1}></span>
+        Best Clubs of <span ref={shutter1}></span>
       </h1>
-      <h1 className="canvas">
-        Canvas <span ref={shutter2}></span>
+      <h1 className="canvas" style={{
+        fontSize:"100px"
+      }}>
+        CMRTC <span ref={shutter2}></span>
       </h1>
       <div className="photos">
         <div

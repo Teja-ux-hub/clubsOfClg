@@ -1,30 +1,31 @@
 import SectionTitle from "./SectionTitle";
 import GalleryItem from "./GalleryItem";
+import farhan from './farhan.jpeg'
 
 const images = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/4842487/pexels-photo-4842487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Arcade playtime for 90's kids",
-    category: "Arcade Games",
+    src: "https://media.licdn.com/dms/image/v2/D5622AQGnfLwdHcCpDw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729938443833?e=1735171200&v=beta&t=3BzbqjzLFekH5pei7aUHz8Qbr3DWg13kVoOA9qpzIa0",
+    title: "President of Code O holiks",
+    category: "",
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/3356608/pexels-photo-3356608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "No signal - no transmission",
-    category: "TV",
+    src:"https://chetan-portfolio-six.vercel.app/pic.jpg",
+    title: "Dev lead of Code O holiks",
+    category: "",
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/12668238/pexels-photo-12668238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Retro Closures",
-    category: "Boombox",
+    src: "https://www.spi.ox.ac.uk/sites/default/files/styles/callout_person_image/public/spi/images/media/no_image_available.png?itok=npEdKFMv",
+    title: "Design lead of Code O holiks", 
+    category: "",
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/12204293/pexels-photo-12204293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Vinyl Loveless Happiness",
-    category: "Vinyl Record",
+    src: "https://www.spi.ox.ac.uk/sites/default/files/styles/callout_person_image/public/spi/images/media/no_image_available.png?itok=npEdKFMv",
+    title: "Core member",
+    category: "",
   },
 ];
 

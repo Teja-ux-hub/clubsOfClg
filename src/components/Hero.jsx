@@ -17,7 +17,7 @@ const Hero = () => {
           war is 
         </h1>
         <h1 className="canvas" ref={heroText2Ref}>
-          Coming ! 
+          Coding ! 
         </h1>
         <button className='hero-btn' ref={heroBtnRef}>Be Ready</button>
       </div>

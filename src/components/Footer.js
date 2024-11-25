@@ -9,9 +9,9 @@ const Footer = () => {
 
   return (
     <section className="footer wrapper" ref={footerRef}>
-      <h1 ref={footerHeadline}>Bonjour</h1>
+      <h1 ref={footerHeadline}>ThankYou</h1>
       <p>
-        &copy; {new Date().getFullYear()} Immemorial. Crafted by yours truly
+        &copy; {new Date().getFullYear()} Contact for more information <a href="https://www.instagram.com/meh_teja/?__pwa=1">meh_teja</a>
       </p>
     </section>
   );
